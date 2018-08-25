@@ -16,19 +16,17 @@ end tell
 end tell
 end tell
 
-____ Delay script____
+#Delay script
 tell application "Microsoft Excel"
 	delay 1
 	quit
 end tell
 
 
-____ Open specific file___
-
+#Open specific file
 do shell script "open ~/desktop/RetailStores.xls"
 
-___ Copy Select text____
-
+#Copy Select text
 tell application "Microsoft Excel" to activate
 tell application "System Events"
 	tell process "Excel"
@@ -38,15 +36,13 @@ tell application "System Events"
 	end tell
 end tell
 
-____ Autosize cells___
-
+#Autosize cells
 tell application "Microsoft Excel"
 	autofit columns of range "A:BT"
 	autofit rows of range "A1:A25"
 end tell
 
-___ Dialog Display____
-
+#Dialog Display
 tell application "Microsoft Excel"
 	display dialog "What is the store number?" default answer ""
 	set storeNumber to text returned of theResult
