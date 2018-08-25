@@ -1,4 +1,4 @@
-
+#Text Bolding
 set FindWordsToReplace to "This word" as text
 tell application "Microsoft Word"
 	set GetTxt to find object of selection
@@ -16,7 +16,7 @@ end tell
 end tell
 end tell
 
-
+____ Delay script____
 tell application "Microsoft Excel"
 	delay 1
 	quit
