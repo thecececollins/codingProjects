@@ -1,7 +1,7 @@
 # Open Google Doc
 tell application "Google Chrome"
 	activate
-	open location "https://docs.google.com/spreadsheets/d/1mymE8805JLMWhc9XGWN7PNCqQEd4f1v7aSBqeI1PuIg/edit#gid=1985560671"
+	open location "https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxx"
 end tell
 
 delay 15
