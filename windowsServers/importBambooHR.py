@@ -29,7 +29,7 @@ else:
 log = logging.getLogger(__name__)
 log.addHandler(NullHandler())
 
-pyad.set_defaults(ldap_server="pdx-clay-dc1.corp.simple.com")
+pyad.set_defaults(ldap_server="_insert server information here_")
 
 
 def parse_args(argv):
